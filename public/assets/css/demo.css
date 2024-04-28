@@ -2,6 +2,38 @@
 * demo.css
 * File include item demo only specific css only
 ******************************************************************************/
+.btn1{
+  position: relative;
+  border: 19px;
+  border-radius: 4px;
+  border-color: rgba(172, 19, 19, 0.77);
+  background-color: rgba(172, 19, 19, 0.77);
+  border-width: 4px;
+  border-style: solid;
+  margin-left: 10px;
+}
+
+.btn2{
+  position: relative;
+  border: 19px;
+  border-radius: 4px;
+  border-color: rgba(203, 249, 254, 0.77);
+  background-color: rgba(182, 234, 238, 0.77);
+  border-width: 4px;
+  border-style: solid;
+  margin-left: 10px;
+}
+
+.btn3{
+  position: relative;
+  border: 19px;
+  border-radius: 4px;
+  border-color: rgba(172, 19, 19, 0.77);
+  background-color: rgba(172, 19, 19, 0.77);
+  border-width: 4px;
+  border-style: solid;
+  margin-left: 10px;
+}
 
 .menu .app-brand.demo {
   height: 64px;

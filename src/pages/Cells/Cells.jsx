@@ -4,6 +4,7 @@ import Nave from "../Nave";
 
 
 function Cells() {
+    
     const cellsData = [
         {
             "id": 1,

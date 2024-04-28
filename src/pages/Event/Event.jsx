@@ -26,26 +26,12 @@ function Event() {
                                     </div>
                                     <div className="card-footer">
                                         <small className="text-muted">Posted 53 mins ago</small>
-                                        <button style="
-                      position: relative;
-                      border: 19px;
-                      border-radius: 4px;
-                      border-color: rgba(172, 19, 19, 0.77);
-                      background-color: rgba(172, 19, 19, 0.77);
-                      border-width: 4px;
-                      border-style: solid;
-                      margin-left: 10px;
-                    "><span className="mdi mdi-delete"></span></button>
-                                        <button style="
-                    position: relative;
-                    border: 19px;
-                    border-radius: 4px;
-                    border-color: rgba(203, 249, 254, 0.77);
-                    background-color: rgba(182, 234, 238, 0.77);
-                    border-width: 4px;
-                    border-style: solid;
-                    margin-left: 10px;
-                  "><span className="mdi mdi-pencil-ruler"></span></button>
+                                        <button className='btn1' >
+                                            <span className="mdi mdi-delete"></span>
+                                        </button>
+                                        <button className='btn2'>
+                                            <span className="mdi mdi-pencil-ruler"></span>
+                                        </button>
                                     </div>
                                 </div>
                                 <div className="card">
@@ -60,26 +46,8 @@ function Event() {
                                     </div>
                                     <div className="card-footer">
                                         <small className="text-muted">Posted 3 days ago</small>
-                                        <button style="
-                      position: relative;
-                      border: 19px;
-                      border-radius: 4px;
-                      border-color: rgba(172, 19, 19, 0.77);
-                      background-color: rgba(172, 19, 19, 0.77);
-                      border-width: 4px;
-                      border-style: solid;
-                      margin-left: 10px;
-                    "><span className="mdi mdi-delete"></span></button>
-                                        <button style="
-                    position: relative;
-                    border: 19px;
-                    border-radius: 4px;
-                    border-color: rgba(203, 249, 254, 0.77);
-                    background-color: rgba(182, 234, 238, 0.77);
-                    border-width: 4px;
-                    border-style: solid;
-                    margin-left: 10px;
-                  "><span className="mdi mdi-pencil-ruler"></span></button>
+                                        <button className='btn3'><span className="mdi mdi-delete"></span></button>
+                                        <button className='btn2'><span className="mdi mdi-pencil-ruler"></span></button>
                                     </div>
                                 </div>
                                 <div className="card">
@@ -96,26 +64,8 @@ function Event() {
                                     </div>
                                     <div className="card-footer">
                                         <small className="text-muted">Posted 1 week ago</small>
-                                        <button style="
-                      position: relative;
-                      border: 19px;
-                      border-radius: 4px;
-                      border-color: rgba(172, 19, 19, 0.77);
-                      background-color: rgba(172, 19, 19, 0.77);
-                      border-width: 4px;
-                      border-style: solid;
-                      margin-left: 10px;
-                    "><span className="mdi mdi-delete"></span></button>
-                                        <button style="
-                    position: relative;
-                    border: 19px;
-                    border-radius: 4px;
-                    border-color: rgba(203, 249, 254, 0.77);
-                    background-color: rgba(182, 234, 238, 0.77);
-                    border-width: 4px;
-                    border-style: solid;
-                    margin-left: 10px;
-                  "><span className="mdi mdi-pencil-ruler"></span></button>
+                                        <button className='btn3'><span className="mdi mdi-delete"></span></button>
+                                        <button className='btn2'><span className="mdi mdi-pencil-ruler"></span></button>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +106,7 @@ function Event() {
                                             <div className="row justify-content-end">
                                                 <div className="col-sm-10">
                                                     <button type="submit" className="btn btn-primary"
-                                                            style="margin-top: 10px;">Post
+                                                            style={{marginTop: "10px"}}>Post
                                                     </button>
                                                 </div>
                                             </div>
